@@ -1,0 +1,33 @@
+Importing Data from SQL server,Excel and PythonScript and Creating a Dataset:
+
+    ETL on excel
+Creating Columns for Gross Revenue,Net Revenue and Tax Per Product
+
+    ETL  on Power Bi
++Appending queries Purchases2023 and Purchases2024 into Purchases2023/24
+
++ Adding Query Parameters to Sales[Order ID],to get a sample from the source lake(SQL server) 
++ Creating a function "VisualPerformance" for importng the sample above, in order to have faster performance on visuals 
+ 
+ETL with Python Script
+--------------------------------------
+ER procedure with a snowflake schema
+---------------------------------------
+RLS:
+Static RLS by Country
+Dynamic RLS by SupplierID
+
+OLS :
+ in email column
+
+------------------------------------------------------------------
+Dax measures used for Yearly Profit Margin,Quarterly Profit Margin,Year-to-Date Profit and Median Sales
+
+Run measures through Performance Analyzer for optimization of speed and efficiency
+---------------------------------------------------
+Creating Sales Overview and Profit Overview reports
+Creating Parameters Overview with parameter slicer
+----------------------------------
+In Power Bi Service:
+Creatings dashboards :  Traders Executive Dashboard and  Traders Report
+Creating a mobile layout and adding subscriptionts per dashboard
